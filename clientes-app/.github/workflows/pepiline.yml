@@ -1,0 +1,17 @@
+name: clientes-spring-app-angular
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment-ci:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: echo the message
+        run: |
+          echo "Deployment to dev"
+
+
+
